@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+    #background-logo {
+        height: 15vh;
+    }
+
+    .background-img-content p {
+        font-size: 16px;
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    #talex-text {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    #login-img {
+        height: 35;
+    }
+
+    #login-img {
+        height: 40px;
+    }
+    
+    #cart-img {
+        height: 45px;
+    }
+
+    #hamburger-icon {
+        height: 40px;
+    }
+
+    #logo {
+        width: 180px;
+    }
+}

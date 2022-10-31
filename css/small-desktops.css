@@ -1,0 +1,43 @@
+@media screen and (max-width: 1300px) {
+    .navbar {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #logo {
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    #header-action-img {
+        grid-column: 3 / 4;
+        justify-self: end;
+        margin: 0;
+        margin-right: 10%;
+    }
+    
+    #hamburger-icon {
+        display: inline-block;
+        grid-column: 1 / 2;
+        justify-self: start;
+        margin-left: 10%;
+        align-self: center;
+    }
+
+    .background-img-content {
+        padding: 20px 5%;
+    }
+
+    .background-img-content p {
+        font-size: 18px;
+    }
+
+    #talex-text {
+        font-size: 45px;
+    }
+
+}
