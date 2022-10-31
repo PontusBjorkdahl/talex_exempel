@@ -113,6 +113,11 @@ header {
     height: 50px;
 }
 
+#login-img:hover,
+#cart-img:hover {
+    opacity: 0.6;
+}
+
 .background-img-content {
     padding: 30px 15%;
     background-image: url(../img/Rectangle\ 7.png);
